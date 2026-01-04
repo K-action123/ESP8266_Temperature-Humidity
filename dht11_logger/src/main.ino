@@ -5,8 +5,8 @@
 #define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
 
-const char* ssid= "REMOVED";
-const char* password = "REMOVED";
+const char* ssid= "";
+const char* password = "";
 
 const char* server = "http://192.168.1.81/Humidity/logs.php";
 
