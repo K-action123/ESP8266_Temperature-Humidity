@@ -5,8 +5,8 @@
 #define DHTTYPE DHT11
 DHT dht(DHTPIN, DHTTYPE);
 
-const char* ssid= "CANALBOX-EA7B-2G";
-const char* password = "BmPKWtDx5u";
+const char* ssid= "";
+const char* password = "";
 
 const char* server = "http://192.168.1.81/Humidity/logs.php";
 
